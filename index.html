@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>❤️ HOLA ❤️</title>
+  <style>
+    .body {
+      background-color: rgb(207, 15, 111);
+      text-align: center;
+    }
+
+    .body__title {
+      color: white;
+    }
+
+    .body__img {
+      width: 100%;
+      max-width: 512px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <h1 class="body__title"> ❤️¿QUIERES SER MI NOVIA?❤️</h1>
+  <img src="https://imagenes.20minutos.es/files/og_thumbnail/uploads/imagenes/2020/07/28/anime-romantico.png" alt="Foto D My" class="body__img" />
+  <br>
+  <button id="yes">👩‍❤️‍👨Si SoY👩‍❤️‍👨</button>
+  <button id="no">😭Nel PerrO😭</button>
+
+  <script>
+    const vuttonSi = document.getElementById('yes');
+    const vuttonNo = document.getElementById('no');
+
+    const zomosNobios = () => {
+      alert('💞Siempre te cuidare💞');
+      alert('😱Te quiero mucho😱');
+      location.href = 'https://www.tiktok.com/@lucycajas97/video/7236527913623964933?q=porque%20tu%20me%20miras%20y%20yo%20siento%20lo%20mismo%20que%20tu%20dedicar&t=1703051643239';
+    };
+
+    const ebitarKCRompaMyBobo = () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
+      vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+    };
+
+    vuttonSi.addEventListener('click', zomosNobios);
+    vuttonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+  </script>
+</body>
+
+</html>
